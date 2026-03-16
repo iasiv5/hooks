@@ -33,5 +33,5 @@ SESSION_EVENT="{\"timestamp\":\"$TIMESTAMP\",\"event\":\"sessionStart\",\"sessio
 echo "$SESSION_EVENT" >> logs/copilot/session.log
 echo "$SESSION_EVENT" >> "$SESSION_FILE"
 
-echo "📝 Session logged"
+echo "Session logged"
 exit 0
