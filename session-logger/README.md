@@ -37,7 +37,7 @@ Comprehensive logging for GitHub Copilot coding agent sessions, tracking session
    git clone https://github.com/iasiv5/hooks.git
    ```
 
-3. 创建日志目录：
+3. 创建日志目录：(可选，脚本会自动创建)
    ```bash
    mkdir -p ../logs/copilot
    ```
