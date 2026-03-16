@@ -19,8 +19,8 @@ Comprehensive logging for GitHub Copilot coding agent sessions, tracking session
 ## Features
 
 - **会话追踪**：记录会话开始与结束事件
-- **提示词日志**：记录用户提示词提交内容
-- **响应日志**：按时间顺序记录助手响应内容
+- **提示词日志**：记录用户完整提示词 (user prompt inputs)
+- **响应日志**：按时间顺序记录助手响应内容 (agent responses)
 - **自动回补**：Stop/reconcile 会从 transcript 自动补齐漏记事件
 - **结构化日志**：使用 JSON 格式，便于解析
 - **隐私可控**：支持通过配置完全关闭日志
